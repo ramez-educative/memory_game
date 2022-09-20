@@ -23,6 +23,7 @@ const App = () => {
         setTurns(0);
         setExceeds(false);
         setWinner(false);
+        setDisabled(false);
     };
 
     // Call the shuffle card function at first render
