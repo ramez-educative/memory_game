@@ -68,7 +68,7 @@ const App = () => {
     useEffect(() => {
         setTimeout(() => {
             const isTrue = cards.every((card) => card.matched === true);
-            if (turns > 15) {
+            if (turns >= 15) {
                 setExceeds(true)
                 // Disbaled user from clicking on cards
                 setDisabled(true);
